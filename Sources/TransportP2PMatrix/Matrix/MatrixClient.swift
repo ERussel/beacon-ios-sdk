@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public class MatrixClient {
     private let store: Store

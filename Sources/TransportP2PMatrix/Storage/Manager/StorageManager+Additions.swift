@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 extension StorageManager {
     var p2pMatrixPlugin: P2PMatrixStoragePlugin? { plugins.first(where: { $0 is P2PMatrixStoragePlugin }) as? P2PMatrixStoragePlugin }

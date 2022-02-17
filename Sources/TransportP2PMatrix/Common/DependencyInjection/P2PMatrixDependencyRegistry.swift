@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 class P2PMatrixDependencyRegistry: ExtendedDependencyRegistry {
     private let dependencyRegistry: DependencyRegistry

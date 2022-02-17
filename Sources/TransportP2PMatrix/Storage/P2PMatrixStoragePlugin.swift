@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public protocol P2PMatrixStoragePlugin: StoragePlugin {
     func getMatrixRelayServer(completion: @escaping (Result<String?, Error>) -> ())

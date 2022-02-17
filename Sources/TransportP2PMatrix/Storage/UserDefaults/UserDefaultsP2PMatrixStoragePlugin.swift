@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public struct UserDefaultsP2PMatrixStoragePlugin: P2PMatrixStoragePlugin {
     

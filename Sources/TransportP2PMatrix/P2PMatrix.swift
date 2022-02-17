@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public extension Transport.P2P {
     

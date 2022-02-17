@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 extension Migration {
     func migrateMatrixRelayServer(withNodes matrixNodes: [String], completion: @escaping (Result<(), Swift.Error>) -> ()) {

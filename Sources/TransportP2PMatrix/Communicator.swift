@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import BeaconCore
     
 extension Transport.P2P.Matrix {
     
