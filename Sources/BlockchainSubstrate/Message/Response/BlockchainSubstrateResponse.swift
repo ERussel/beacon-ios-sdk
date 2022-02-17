@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 /// Substrate specific content of the `BeaconResponse.blockchain` message.
 public enum BlockchainSubstrateResponse: BlockchainBeaconResponseProtocol, Equatable {

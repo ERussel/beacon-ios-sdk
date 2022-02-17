@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 /// Body of the `BlockchainSubstrateRequest.sign` message.
 public struct SignSubstrateRequest: BlockchainBeaconRequestProtocol, Equatable, Codable {

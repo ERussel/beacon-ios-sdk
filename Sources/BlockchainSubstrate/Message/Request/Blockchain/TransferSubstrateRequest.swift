@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 /// Body of the `BlockchainSubstrateRequest.transfer` message.
 public struct TransferSubstrateRequest: BlockchainBeaconRequestProtocol, Equatable, Codable {

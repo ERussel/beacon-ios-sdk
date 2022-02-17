@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public enum BlockchainV3SubstrateResponse: BlockchainV3SubstrateResponseProtocol {
     public typealias BlockchainType = Substrate

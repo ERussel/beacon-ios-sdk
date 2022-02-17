@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public enum TransferSubstrateResponse: BlockchainBeaconResponseProtocol, Equatable {
     case broadcast(_ broadcast: BroadcastTransferSubstrateResponse)

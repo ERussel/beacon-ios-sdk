@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public struct PermissionV3SubstrateResponse: PermissionV3BeaconResponseContentDataProtocol {
     public let appMetadata: Substrate.AppMetadata

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 class SubstrateDependencyRegistry: ExtendedDependencyRegistry {
     private let dependencyRegistry: DependencyRegistry

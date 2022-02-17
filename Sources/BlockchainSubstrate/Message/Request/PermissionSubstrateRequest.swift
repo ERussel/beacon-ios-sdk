@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 /// Substrate specific contenet of the `BeaconRequest.permission` message.
 public struct PermissionSubstrateRequest: PermissionBeaconRequestProtocol, Equatable, Codable {

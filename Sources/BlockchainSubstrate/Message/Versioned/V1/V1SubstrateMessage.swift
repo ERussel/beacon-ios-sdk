@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public struct V1SubstrateMessage: BlockchainV1Message {
     public var id: String { "" }

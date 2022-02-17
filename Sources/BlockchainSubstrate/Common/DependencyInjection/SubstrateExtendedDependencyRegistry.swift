@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 protocol ExtendedDependencyRegistry: DependencyRegistry {
     
