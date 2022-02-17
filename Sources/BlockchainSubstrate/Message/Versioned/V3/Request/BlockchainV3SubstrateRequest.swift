@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public enum BlockchainV3SubstrateRequest: BlockchainV3SubstrateRequestProtocol {
     case transfer(TransferV3SubstrateRequest)

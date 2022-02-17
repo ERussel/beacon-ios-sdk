@@ -7,7 +7,6 @@
 
 import Foundation
 import Base58Swift
-import BeaconCore
 
 extension Substrate {
     

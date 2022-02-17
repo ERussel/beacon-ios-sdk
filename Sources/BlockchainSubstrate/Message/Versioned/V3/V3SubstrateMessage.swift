@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public enum V3SubstrateMessage: BlockchainV3Message {
     public typealias BlockchainType = Substrate

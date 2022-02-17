@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public enum SubstrateResponse: BlockchainResponse {
     public typealias Permission = PermissionSubstrateResponse

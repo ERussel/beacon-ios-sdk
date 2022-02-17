@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public struct TransferV3SubstrateRequest: BlockchainV3SubstrateRequestProtocol {
     public let type: String

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public struct ReturnTransferSubstrateResponse: BlockchainBeaconResponseProtocol, Equatable, Codable {
     /// The value that identifies the request to which the message is responding.

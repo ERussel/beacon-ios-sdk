@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 /// Substrate implementation of the `Blockchain` protocol.
 public class Substrate: Blockchain {

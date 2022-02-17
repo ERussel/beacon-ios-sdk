@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import BeaconCore
 
 public struct SignV3SubstrateResponse: BlockchainV3SubstrateResponseProtocol {
     public typealias BlockchainType = Substrate
