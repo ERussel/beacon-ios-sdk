@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BeaconSDK"
-  spec.version      = "3.0.1-beta.0"
+  spec.version      = "3.0.1-beta.1"
   spec.summary      = "Beacon is an implementation of the wallet interaction standard tzip-10 which describes the connection of a dApp with a wallet."
   spec.description  = <<-DESC
     Beacon is an implementation of the Tezos wallet interaction standard tzip-10 which describes the connection of a dApp with a wallet.
@@ -20,6 +20,11 @@ Pod::Spec.new do |spec|
   spec.subspec 'BeaconBlockchainTezos' do |subspec|
     subspec.dependency 'BeaconSDK/BeaconCore'
     subspec.source_files = 'Sources/BlockchainTezos/**/*.{swift}'
+  end
+
+  spec.subspec 'BeaconBlockchainSubstrate' do |subspec|
+    subspec.dependency 'BeaconSDK/BeaconCore'
+    subspec.source_files = 'Sources/BlockchainSubstrate/**/*.{swift}'
   end
   
   spec.subspec 'BeaconClientWallet' do |subspec|
